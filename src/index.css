@@ -1,0 +1,49 @@
+:root{
+    --primary-cl: #d70018;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif
+}
+
+button,
+input{
+    border: none;
+    outline: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-mainLayout{
+    margin-top: 20px;
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+    gap: 20px;
+    display: flex;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
